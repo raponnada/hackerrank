@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class GradingStudents {
 
     static int[] solve(int[] grades){
         // Complete this function
@@ -16,7 +16,7 @@ public class Solution {
             else
                 res[i] = grades[i];
         }
-        
+
         return res;
     }
 
@@ -32,9 +32,7 @@ public class Solution {
             System.out.print(result[i] + (i != result.length - 1 ? "\n" : ""));
         }
         System.out.println("");
-        
+
 
     }
 }
-
-
