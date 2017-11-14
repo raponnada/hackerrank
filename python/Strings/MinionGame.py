@@ -1,4 +1,4 @@
-s = 'BANANA'
+s = raw_input()
 
 vowels = 'AEIOU'
 
@@ -8,9 +8,7 @@ for i in range(len(s)):
     if s[i] in vowels:
         kevsc += (len(s) - i)
     else:
-        print s[i]
         stusc += (len(s) - i)
-        print len(s) - i
 
 if kevsc > stusc:
     print "Kevin", kevsc
