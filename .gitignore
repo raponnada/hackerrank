@@ -1,3 +1,6 @@
 # ignore Visual Studio Code editor metadata
 .vscode/
 *.class
+
+# ignore python compiled code.
+*.pyc
