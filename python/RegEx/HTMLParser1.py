@@ -1,5 +1,4 @@
 from HTMLParser import HTMLParser
-import re
 
 
 class MyHTMLParser(HTMLParser):
